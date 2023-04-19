@@ -1,0 +1,1 @@
+python main.py --model SLaK_tiny --eval true --Decom True --kernel_size 51 49 47 13 5 --width_factor 1.3 --resume ./path/to/checkpoint/SLaK_tiny_checkpoint.pdparams --input_size 224 --drop_path 0.2 --data_path path/to/imagenet
